@@ -1,4 +1,4 @@
-package me.hostedby.aptivydroid;
+package dev.miit0o.aptivydroid;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("me.hostedby.aptivydroid", appContext.getPackageName());
+        assertEquals("dev.miit0o.aptivydroid", appContext.getPackageName());
     }
 }

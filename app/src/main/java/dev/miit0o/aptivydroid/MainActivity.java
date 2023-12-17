@@ -1,4 +1,4 @@
-package me.hostedby.aptivydroid;
+package dev.miit0o.aptivydroid;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         AptivyWebView=(WebView) findViewById(R.id.webview);
         AptivyWebView.setWebViewClient(new WebViewClient());
-        AptivyWebView.loadUrl("https://www.rustige.me");
+        AptivyWebView.loadUrl("https://www.miit0o.dev");
         WebSettings webSettings=AptivyWebView.getSettings();
         webSettings.setJavaScriptEnabled(true);
     }

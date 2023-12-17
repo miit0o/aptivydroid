@@ -1,4 +1,4 @@
-package me.hostedby.aptivydroid;
+package dev.miit0o.aptivydroid;
 
 import org.junit.Test;
 

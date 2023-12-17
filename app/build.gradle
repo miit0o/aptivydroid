@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'me.hostedby.aptivydroid'
-    compileSdk 33
+    namespace 'dev.miit0o.aptivydroid'
+    compileSdk 34
 
     defaultConfig {
-        applicationId "me.hostedby.aptivydroid"
+        applicationId "dev.miit0o.aptivydroid"
         minSdk 24
         targetSdk 33
         versionCode 1
